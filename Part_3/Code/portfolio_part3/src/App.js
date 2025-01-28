@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import projThumb1 from './images/proj_thumb1.jpg';
+import projThumb2 from './images/proj_thumb2.jpg';
+import projThumb3 from './images/proj_thumb3.jpg';
 
 const App = () => {
   return (
@@ -57,15 +60,15 @@ const Projects = () => {
   const projectList = [
     {
       title: "A web app built with React and Node.js",
-      img: "../P2_Code/thumbnails/proj_thumb1.jpg",
+      img: projThumb1,
     },
     {
       title: "An e-commerce platform using Angular and .NET",
-      img: "../P2_Code/thumbnails/proj_thumb2.jpg",
+      img: projThumb2,
     },
     {
       title: "A dynamic portfolio site built with React",
-      img: "../P2_Code/thumbnails/proj_thumb3.jpg",
+      img: projThumb3,
     },
   ];
 
